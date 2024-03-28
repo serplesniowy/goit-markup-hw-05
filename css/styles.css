@@ -32,6 +32,11 @@ img{
     height: auto;
 }
 
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
 
 .visually-hidden {
     position: absolute;
