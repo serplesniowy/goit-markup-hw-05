@@ -401,10 +401,7 @@ img{
     margin-right: 120px;
 }
 
-.footer-socials{
-    display: flex;
-	gap: 16px;
-}
+
 
 .footer-socials-title{
     font-weight: 500;
