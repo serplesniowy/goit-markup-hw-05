@@ -3,6 +3,14 @@
     padding: 0;
   }
 
+  :root {
+    --color-logo: #4d5ae5;
+    --color-section1: #2e2f42;
+    --color-footer: #f4f4fd;
+    --color-paragraph: #434455;
+    --color-portfolio: #e7e9fc;
+  }
+  
 body{
     font-family: Roboto, sans-serif;
     color: #434455;
