@@ -460,10 +460,10 @@ img{
 	bottom: -1px;
 }
 
-.div-footer-three {
+.footer-subscribe {
     margin-left: 80px;
   }
-  .footer-paragraph-three {
+  .sub-p {
     margin-bottom: 16px;
     font-size: 16px;
     font-weight: 500;
@@ -510,7 +510,7 @@ img{
     border: none;
     border-radius: 4px;
   }
-  .footer-icon-div {
+  .footer-sub-icon {
     margin-left: 16px;
   }
 
