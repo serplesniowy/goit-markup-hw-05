@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
   }
-  
+
 body{
     font-family: Roboto, sans-serif;
     color: #434455;
@@ -610,6 +610,7 @@ button {
     letter-spacing: 0.02em;
     color: var(--color-section1);
     margin-bottom: 16px;
+    color: #2E2F42;
   }
   .div-modal-form {
     margin-bottom: 8px;
