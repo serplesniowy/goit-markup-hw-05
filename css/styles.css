@@ -10,7 +10,7 @@
     --color-paragraph: #434455;
     --color-portfolio: #e7e9fc;
   }
-  
+
 body{
     font-family: Roboto, sans-serif;
     color: #434455;
@@ -738,7 +738,7 @@ button {
   }
 
   .link-modal {
-    color: var(--color-logo);
+    color: #4d5ae5;
   }
   
   .button-modal-six {
