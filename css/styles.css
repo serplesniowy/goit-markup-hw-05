@@ -649,7 +649,7 @@ button {
   }
 
   .input-modal:focus {
-    border: 1px solid #4d5ae5;
+    border-color:  #4d5ae5;
   }
 
   .input-modal:focus + svg {
