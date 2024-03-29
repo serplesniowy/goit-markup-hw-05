@@ -683,6 +683,7 @@ button {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
   }
 
   .textarea-modal:focus {
@@ -706,12 +707,13 @@ button {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #2E2F42;
+    color: #8e8f99;
   }
 
   .span-label {
     width: 16px;
     height: 16px;
+    fill: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -720,21 +722,6 @@ button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: transparent;
-  }
-  
-  .span-label{
-    width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
 
   }
 
@@ -772,4 +759,8 @@ button {
     fill: #f4f4fd;
   }
 
-  
+  .modal-check:checked + .label-modal-five > .span-label {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+  }
