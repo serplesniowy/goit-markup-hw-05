@@ -760,6 +760,12 @@ button {
     fill: #f4f4fd;
   }
 
+  .modal-check:checked + .label-modal-five > span {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+  }
+
   .modal-check:checked + .label-modal-five > .span-label {
     background-color: #404bbf;
     border: none;
@@ -767,6 +773,6 @@ button {
   }
 
   .modal-check:focus + .label-modal-five > .span-label{
-    outline: 10px solid rgba(0, 0, 255, 0.5);
+    outline: 2px solid rgba(0, 0, 255, 0.5);
 
   }
