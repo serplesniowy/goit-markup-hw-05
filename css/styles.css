@@ -657,10 +657,14 @@ button {
   }
 
   .input-modal:focus {
-    border-color:  #4d5ae5;
+    border-color:#4d5ae5;
   }
 
   .input-modal:focus + svg {
+    fill: #4d5ae5;
+  }
+
+  .input-modal:focus > svg {
     fill: #4d5ae5;
   }
 
@@ -782,4 +786,10 @@ button {
   .modal-check:focus + .label-modal-five > .span-label{
     outline: 2px solid rgba(0, 0, 255, 0.5);
 
+  }
+
+  .modal-check:focus > modal-icon-check{
+    fill: #f4f4fd;
+    border: none;
+    background-color: #404bbf;
   }
