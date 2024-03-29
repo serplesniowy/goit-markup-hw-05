@@ -706,7 +706,7 @@ button {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: var(--section-five);
+    color: #2E2F42;
   }
 
   .span-label {
@@ -771,3 +771,5 @@ button {
     border: none;
     fill: #f4f4fd;
   }
+
+  
