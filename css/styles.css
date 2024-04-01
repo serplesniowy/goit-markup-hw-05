@@ -30,7 +30,17 @@ ol {
 }
 
 @media (min-resolution: 192dpi) {
-  .top {
+  .order-service {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/background-desktop@2x.jpg);
+  }
+}
+
+@media (min-resolution: 192dpi) {
+  .order-service {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -38,6 +48,7 @@ ol {
       url(../images/background-mobile@2x.jpg);
   }
 }
+/* MOBILE */
 
 @media (max-width: 767px) {
   .menu {
@@ -49,7 +60,17 @@ ol {
   }
 }
 
-/* ================================================= TABLET ========================================= */
+/* DESKTOP */
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+/* TABLET  */
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -88,6 +109,16 @@ ol {
 
   .hamburger {
     display: none;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .top {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/background-tablet@2x.jpg);
+    }
   }
 
 h1,
@@ -139,10 +170,11 @@ button {
 }
 
 .container{
-    margin: 0 auto;
-    padding: 0 15px;
-    width: 1158px;
-
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
     /* outline: 2px solid red; */
 }
 
@@ -583,7 +615,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg_hero.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-mobile.jpg);
 
 }
 
