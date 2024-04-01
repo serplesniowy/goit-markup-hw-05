@@ -29,6 +29,67 @@ ol {
   margin: 0;
 }
 
+@media (min-resolution: 192dpi) {
+  .top {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/background-mobile@2x.jpg);
+  }
+}
+
+@media (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+
+  .info {
+    display: none;
+  }
+}
+
+/* ================================================= TABLET ========================================= */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /* --HEADER-- */
+  .header-container {
+    min-height: 72px;
+  }
+
+  .logo {
+    display: flex;
+    margin-right: 120px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 16px;
+  }
+
+  .menu-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .menu-link:hover,
+  .menu-link:focus {
+    color: #404bbf;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
 h1,
 h2,
 h3,
@@ -50,6 +111,7 @@ button {
     border: none;
     border-radius: 4px;
   }
+
 
 .visually-hidden {
     position: absolute;
