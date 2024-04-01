@@ -156,6 +156,20 @@ button {
 }
 
 /* ================== MOBILE MENU ================== */
+
+.hamburger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.hamburger-button {
+  background-color: #fff;
+}
+
 .mobile-menu {
   display: flex;
   flex-direction: column;
